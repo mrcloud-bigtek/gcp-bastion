@@ -8,3 +8,11 @@ xem port listen on Macos:
   Step 2: 
     
     
+---------
+De tranh xung dot giua gcloud va kubect voi bastin host proxy:
+- Treen localhost chay cac lenh:
+   - gcloud config set proxy/type http
+
+   - gcloud config set proxy/address localhost
+
+   - gcloud config set proxy/port 8888
